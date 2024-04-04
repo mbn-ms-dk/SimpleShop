@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleShop.AppHost", "SimpleShop.AppHost\SimpleShop.AppHost.csproj", "{FB94A87F-E655-4D49-A382-93C9F96FC4FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleShop.ServiceDefaults", "SimpleShop.ServiceDefaults\SimpleShop.ServiceDefaults.csproj", "{C5E1DFBF-51E0-475D-8D34-9149A91F0648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogDB", "CatalogDB\CatalogDB.csproj", "{3D023FCE-4A46-419E-A38F-5E7D8CDEDD18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogDbManager", "CatalogDbManager\CatalogDbManager.csproj", "{8097B051-811F-4040-8ABE-19F7A00DA39A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService", "CatalogService\CatalogService.csproj", "{DB3A0B2A-0482-47E8-897B-D321891B0689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasketService", "BasketService\BasketService.csproj", "{DAD4110D-E72C-4D6D-B9E3-733BA2F0B8D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frontend", "Frontend\Frontend.csproj", "{4CF6908E-7C28-44C0-B421-0C76412565CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB94A87F-E655-4D49-A382-93C9F96FC4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB94A87F-E655-4D49-A382-93C9F96FC4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB94A87F-E655-4D49-A382-93C9F96FC4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB94A87F-E655-4D49-A382-93C9F96FC4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E1DFBF-51E0-475D-8D34-9149A91F0648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E1DFBF-51E0-475D-8D34-9149A91F0648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E1DFBF-51E0-475D-8D34-9149A91F0648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E1DFBF-51E0-475D-8D34-9149A91F0648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D023FCE-4A46-419E-A38F-5E7D8CDEDD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D023FCE-4A46-419E-A38F-5E7D8CDEDD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D023FCE-4A46-419E-A38F-5E7D8CDEDD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D023FCE-4A46-419E-A38F-5E7D8CDEDD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8097B051-811F-4040-8ABE-19F7A00DA39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8097B051-811F-4040-8ABE-19F7A00DA39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8097B051-811F-4040-8ABE-19F7A00DA39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8097B051-811F-4040-8ABE-19F7A00DA39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3A0B2A-0482-47E8-897B-D321891B0689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3A0B2A-0482-47E8-897B-D321891B0689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3A0B2A-0482-47E8-897B-D321891B0689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3A0B2A-0482-47E8-897B-D321891B0689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD4110D-E72C-4D6D-B9E3-733BA2F0B8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD4110D-E72C-4D6D-B9E3-733BA2F0B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD4110D-E72C-4D6D-B9E3-733BA2F0B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD4110D-E72C-4D6D-B9E3-733BA2F0B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF6908E-7C28-44C0-B421-0C76412565CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF6908E-7C28-44C0-B421-0C76412565CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF6908E-7C28-44C0-B421-0C76412565CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF6908E-7C28-44C0-B421-0C76412565CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E92333A-C8EC-4B90-BE5F-AE78DA247C7E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@CatalogDbManager_HostAddress = http://localhost:5113
+
+GET {{CatalogDbManager_HostAddress}}/health/
+Accept: application/json
+
+###

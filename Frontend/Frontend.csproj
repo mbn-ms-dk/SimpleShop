@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.62.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.62.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="8.0.0-preview.4.24156.9" />
+    <PackageReference Include="Yarp.ReverseProxy" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleShop.ServiceDefaults\SimpleShop.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="..\BasketService\Models\BasketItem.cs" Link="Models\BasketItem.cs" />
+		<Compile Include="..\BasketService\Models\CustomerBasket.cs" Link="Models\CustomerBasket.cs" />
+		<Compile Include="..\BasketService\Models\DecimalValue.cs" Link="Models\DecimalValue.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="..\BasketService\Protos\basket.proto" GrpcServices="Client" Link="BasketService\Protos\basket.proto" />
+	</ItemGroup>
+
+</Project>
