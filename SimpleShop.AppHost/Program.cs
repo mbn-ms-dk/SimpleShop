@@ -1,10 +1,11 @@
+using Aspire.Hosting;
+
+
 var builder = DistributedApplication.CreateBuilder(args);
 
 var catalogDb = builder.AddPostgres("catalog").WithPgAdmin().AddDatabase("catalogdb");
 
 var basketCache = builder.AddRedis("basketcache");
-
-
 
 var cts = builder.AddProject<Projects.CatalogService>("catalogservice")
     .WithReference(catalogDb);
