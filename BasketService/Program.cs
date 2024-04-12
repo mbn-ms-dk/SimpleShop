@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 
-builder.AddRedis("basketcache");
+builder.AddRedisClient("basketcache");
 
 
 builder.Services.AddGrpc();

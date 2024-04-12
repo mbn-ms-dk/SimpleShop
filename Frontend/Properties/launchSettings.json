@@ -6,6 +6,7 @@
         "dotnetRunMessages": true,
         "launchBrowser": false,
         "applicationUrl": "http://localhost:5278",
+        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "true",
         "environmentVariables": {
           "ASPNETCORE_ENVIRONMENT": "Development"
         }
