@@ -63,7 +63,9 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore workloads
       run:  dotnet workload restore
-    - name: Restore dependencies  
+    - name: Restore dependencies
+      run: dotnet restore
+
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
