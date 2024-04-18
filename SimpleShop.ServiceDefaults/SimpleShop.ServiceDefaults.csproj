@@ -12,7 +12,6 @@
     <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="8.0.1" />
     <PackageReference Include="Grpc.HealthCheck" Version="2.62.0" />
     <PackageReference Include="Grpc.Net.ClientFactory" Version="2.62.0" />
-
     <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="8.4.0" />
     <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="8.0.0-preview.5.24201.12" />
     <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.1" />
