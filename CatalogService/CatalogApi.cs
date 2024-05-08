@@ -8,6 +8,7 @@ public static class CatalogApi
         var group = routes.MapGroup("api/v1/catalog");
         group.WithTags("Catalog");
 
+        //commment
         group.MapGet("items/type/all/brand/{catalogBrandId?}", async (int? catalogBrandId, CatalogDbContext catalogContext, int? before, int? after, int pageSize = 8) =>
         {
             var itemsOnPage = await catalogContext.GetCatalogItemsCompiledAsync(catalogBrandId, before, after, pageSize);
